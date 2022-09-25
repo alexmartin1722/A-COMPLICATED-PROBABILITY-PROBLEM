@@ -6,7 +6,7 @@
 function caseA5(N)
 %the probability of 3 hit
 sum_n = 0.0;
-for n = 2:N
+for n = 1:N
     sum_m = 0.0;
     for m = n+1:N
         sum_p = 0.0;
